@@ -11,14 +11,13 @@ https.createServer(function(req, res) {
     return;
   }
     
-    
-    
-    
+
     if (req.url == '/') {
         res.writeHead(200, {
             "Content-Type": "text/html"
         })
-        fs.readFile('index.html', function(err, data) {
+        fs.readFile('views/index.html', function(err, data) {
+            if (err) throw err;
             res.end(data)
             console.log(req.url)
         })

@@ -1,0 +1,5 @@
+node_modules/
+.c9/
+data/
+# package.json
+node-js-getting-started/
