@@ -1,0 +1,22 @@
+{
+  "name": "api04_fcc_imagesearchabstraction",
+  "version": "1.0.0",
+  "description": "FCC API04",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image-search",
+    "fcc"
+  ],
+  "author": "SA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "mongodb": "^2.2.14",
+    "request": "^2.79.0",
+    "url": "^0.11.0"
+  }
+}
