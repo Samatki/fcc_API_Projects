@@ -2,7 +2,7 @@ module.exports = {
 
     dataBaseCheckerAndAdder: function(pURL, callback) {
         var mongo = require('mongodb').MongoClient;
-        var mongoDBURL = 'mongodb://herokuAdmin:urlpassword@ds119548.mlab.com:19548/urlstoragedb';
+        var mongoDBURL = 'mongodb://xxx;
 
 
         mongo.connect(mongoDBURL, function(err, db) {
@@ -79,7 +79,7 @@ module.exports = {
 
     shortenedURLRerouter: function(sURL, callback) {
         var mongo = require('mongodb').MongoClient;
-        var mongoDBURL = 'mongodb://herokuAdmin:urlpassword@ds119548.mlab.com:19548/urlstoragedb';
+        var mongoDBURL = 'mongodb://xxxx';
         
         mongo.connect(mongoDBURL, function(err, db) {
             if (err) {
