@@ -1,7 +1,7 @@
 module.exports = {
     returnMostRecent : function(callback){
         var mongo = require('mongodb').MongoClient;
-        var mongoDBURL = 'mongodb://admin:adminpassword@ds127878.mlab.com:27878/image_search_db';
+        var mongoDBURL = 'mongodb://xxxxx';
         
         mongo.connect(mongoDBURL,function(err,db){
         console.log('Connected to Database');
