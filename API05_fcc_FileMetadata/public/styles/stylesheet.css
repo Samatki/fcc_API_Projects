@@ -1,0 +1,41 @@
+*{
+    font-family:verdana;
+}
+
+#FileEntryBox, #FileMetaDataGetButton, progress{
+    display:block;
+    width:300px;
+    margin:auto;
+}
+
+h1, h3, h4, h5, p{
+text-align:center;
+}
+
+#responseHeader{
+    display:none;
+}
+
+progress{
+    display:none;
+ /*  background-color:green; */
+    margin:auto;
+	-webkit-appearance: none;
+	border: none;
+}
+
+progress::-webkit-progress-bar {
+	background: transparent;
+	border-radius: 50px;
+	padding: 2px;
+}
+
+progress::-webkit-progress-value {
+	border-radius: 50px;
+	box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+	background: green;
+}
+
+#uploadStatus{
+    display:none;
+}
