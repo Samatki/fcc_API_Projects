@@ -4,7 +4,7 @@ module.exports = {
    
         var urlsorter = require('url');
         var mongo = require('mongodb').MongoClient;
-        var mongoDBURL = 'mongodb://admin:adminpassword@ds127878.mlab.com:27878/image_search_db';
+        var mongoDBURL = 'mongodb://xxxxxxx';
 
         var timeOfRequest = (new Date()).toISOString();
 
