@@ -37,7 +37,7 @@ app.get('/API/iSearch/*',function(req,res){
 
           var imgurAPIOptions = {
             headers: {
-                'Authorization': 'Client-ID dabfb7dbf094535'
+                'Authorization': 'Client-ID xxxxxxxxx'
             },
             json: true,
             url: 'https://api.imgur.com/3/gallery/search/time/'+offsetValue+'/?q='+searchTerm,
